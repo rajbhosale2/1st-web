@@ -1,0 +1,75 @@
+.bging{
+    background-image: url(../back.jpg);
+    background-size: cover;
+    background-attachment: ;
+    width: 100%;
+    height: 950px;
+}
+.headerset{
+    padding: 300px;
+    box-sizing: border-box;
+    margin-top: 300px;
+   
+}
+.headerset h1{
+    font-size: 70px;
+    font-weight: bolder;
+    font-family: cursive;
+    transition: 0.7s ease;
+}
+.headerset h6{
+    font-size: 24px;
+    padding: 10px;
+}
+.headerset h1:hover{
+    color: darkgray;
+    font-size: 74px;
+}
+.headerset h6:hover{
+font-size: 24px;
+color: darkgray;
+}
+@media only screen and (max-width: 800px){
+    .headerset h1{font-size:  50px;
+                  font-weight: bold;
+                  font-family: cursive;
+                  transition: 0.7s ease;}
+                  .headerset{
+                    padding: 300px;
+                    box-sizing: border-box;
+                    margin-top: 100px;}
+                  }
+.posts{
+    color: black;
+    margin-top: 300px;
+    font-size: 56px;
+    margin-bottom: 25px;
+}
+.navbar-nav li a{
+    transition: 0.7s ease;
+    margin: 80px;
+}
+.navbar-nav li a:hover{
+    background-color: black;
+}
+section{sss
+    padding: 20px;
+    margin: 20px;
+}
+.card-group{
+    margin: 10px;
+    transition: 0.7s ease;
+}
+.card{
+    margin: 10px;
+}
+.card-group :hover{
+    opacity: 0.3;
+}
+.card-img-top{
+    width: 300px;
+}
+.card-title{
+    color: red
+}
+
